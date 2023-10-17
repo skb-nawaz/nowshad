@@ -1,0 +1,38 @@
+.doughnut-chart-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 400px;
+    width: 450px;
+    box-shadow: 15px 0px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 40px;
+    margin-left: 10em;
+    
+  }
+  
+  canvas {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .analysis {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+}
+
+.canvas-container{
+    display: flex;
+    justify-content: center;
+}
